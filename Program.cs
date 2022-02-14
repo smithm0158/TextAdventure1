@@ -26,7 +26,7 @@ namespace ConsoleUI
             //string[] mobs = new string[] { "Alien", "Tormented Alien", "Corrupted Human", "Zombie" };
 
             List<string> itemsList = new List<string>() { "Keykard", "Fuel Canister", "Monitor", "Engine" };
-            List<string> mobsList = new List<string>() { "Alien", "Tormented Alien", "Corrupted Human", "Zombie" };
+            List<string> mobsList = new List<string>() { "Alien", "Tormented Alien", "Corrupted Human", "Zombie", "Extellan" };
 
 
             bool exit = false;
