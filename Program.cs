@@ -22,8 +22,7 @@ namespace ConsoleUI
             string[] weapons = new string[] { "Pipe", "Laser Pistol", "Knife", "Laser Rifle" };
             string[] potions = new string[] { "Potion of Intelligece", "Potion of Damage" };
             string[] treasures = new string[] { "Etherium", "Jet Fuel", "Crystallized Data" };
-            //string[] items = new string[] { "Keykard", "Fuel Canister", "Monitor", "Engine" };
-            //string[] mobs = new string[] { "Alien", "Tormented Alien", "Corrupted Human", "Zombie" };
+            
 
             List<string> itemsList = new List<string>() { "Keykard", "Fuel Canister", "Monitor", "Engine" };
             List<string> mobsList = new List<string>() { "Alien", "Tormented Alien", "Corrupted Human", "Zombie", "Extellan" };
