@@ -22,11 +22,11 @@ namespace ConsoleUI
             string[] weapons = new string[] { "Pipe", "Laser Pistol", "Knife", "Laser Rifle" };
             string[] potions = new string[] { "Potion of Intelligece", "Potion of Damage" };
             string[] treasures = new string[] { "Etherium", "Jet Fuel", "Crystallized Data" };
-            string[] items = new string[] { "Keykard", "Fuel Canister", "Monitor", "Engine" };
-            string[] mobs = new string[] { "Alien", "Tormented Alien", "Corrupted Human", "Zombie" };
+            //string[] items = new string[] { "Keykard", "Fuel Canister", "Monitor", "Engine" };
+            //string[] mobs = new string[] { "Alien", "Tormented Alien", "Corrupted Human", "Zombie" };
 
-            List<string> itemsList = new List<string>();
-            List<string> mobsList = new List<string>();
+            List<string> itemsList = new List<string>() { "Keykard", "Fuel Canister", "Monitor", "Engine" };
+            List<string> mobsList = new List<string>() { "Alien", "Tormented Alien", "Corrupted Human", "Zombie" };
 
 
             bool exit = false;
@@ -61,8 +61,8 @@ namespace ConsoleUI
                     Console.WriteLine();
 
                     Array.Sort(weapons);
-                    foreach (string weapon in weapons) ;
-                    Console.WriteLine(weapons);
+                    foreach (string weapon in weapons)
+                    Console.WriteLine(weapon);
                     Console.WriteLine();
                 }
                 else if (input == "3")
